@@ -1,0 +1,27 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+
+# Data
+data/
+*.csv
+*.zip
+
+# Models
+*.pth
+*.pt
+*.h5
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Experiments
+mlruns/
+wandb/
+
+# System
+.DS_Store
+Thumbs.db# Python 
