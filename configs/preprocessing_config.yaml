@@ -1,0 +1,29 @@
+augmentation:
+  brightness_contrast: 0.5
+  coarse_dropout: 0.3
+  elastic_transform: 0.2
+  gaussian_noise: 0.3
+  horizontal_flip: 0.5
+  rotation_limit: 15
+batch_size: 16
+channels: 3
+clahe:
+  clip_limit: 2.0
+  tile_grid_size:
+  - 8
+  - 8
+classes:
+- NORMAL
+- PNEUMONIA
+image_size: 224
+mean:
+- 0.485
+- 0.456
+- 0.406
+num_classes: 2
+num_workers: 0
+pin_memory: true
+std:
+- 0.229
+- 0.224
+- 0.225
