@@ -30,19 +30,3 @@ services:
     depends_on:
       - api
     restart: unless-stopped
-```
-
----
-
-### File 4: `.dockerignore`
-```
-data/
-notebooks/
-reports/
-__pycache__/
-*.pyc
-.git/
-.gitignore
-*.ipynb
-mlruns/
-.env

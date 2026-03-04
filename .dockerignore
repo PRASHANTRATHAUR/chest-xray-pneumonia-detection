@@ -1,0 +1,16 @@
+```
+
+---
+
+### File 4: `.dockerignore`
+```
+data/
+notebooks/
+reports/
+__pycache__/
+*.pyc
+.git/
+.gitignore
+*.ipynb
+mlruns/
+.env
