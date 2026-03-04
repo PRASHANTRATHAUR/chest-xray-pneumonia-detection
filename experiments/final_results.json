@@ -1,0 +1,10 @@
+{
+    "model": "EfficientNetB0",
+    "test_accuracy": 93.37,
+    "auc_roc": 0.9705,
+    "avg_precision": 0.9817,
+    "pneumonia_recall": 94.1,
+    "normal_recall": 87.4,
+    "epochs_trained": 8,
+    "training_time_min": 44
+}
